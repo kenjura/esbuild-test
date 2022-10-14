@@ -1,0 +1,7 @@
+{
+  "watch": ["src"],
+  "ignore": ["src/**/*.test.ts"],
+  "ext": "ts,tsx,mjs,js,jsx,json,graphql",
+  "exec": "npm run build && ts-node src/index.ts",
+  "legacyWatch": true
+}
